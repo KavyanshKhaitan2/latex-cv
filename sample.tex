@@ -171,14 +171,18 @@
 
 \cvevent{busy-whatsapp-invoice-sendbot}{Digital invoice sender}{Sep 2025}{}
 \begin{itemize}
-\item Sends invoices from BUSY straight to your WhatsApp inbox.
-\item \textbf{Tech stack:} Python, FastAPI, Helium, Selenium
+  \item Sends invoices from BUSY straight to your WhatsApp inbox.
+  \item \textbf{Tech stack:} Python, FastAPI, Helium, Selenium
 \end{itemize}
 
-\cvevent{busy-whatsapp-invoice-sendbot}{Digital invoice sender}{Sep 2025}{}
+\divider
+
+\cvevent{PartyTools}{Party organising made easier}{Sep 2025}{}
 \begin{itemize}
-\item Sends invoices from BUSY straight to your WhatsApp inbox.
-\item \textbf{Tech stack:} Python, FastAPI, Helium, Selenium
+\item Tambola Ticket Generator: Generates tambola ticket based on user-uploaded templates
+\item \textbf{Tech stack:} Python, Tkinter, Pillow
+\item Also converted into a web app
+\item \textbf{Tech stack (for the web app):} Python, Django, Celery, Pillow
 \end{itemize}
 
 \medskip
@@ -202,26 +206,38 @@
 
 \cvsection{Contributions}
 
-%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
-%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
-\mynames{Lim/Lian\bibnamedelima Tze,
-  Wong/Lian\bibnamedelima Tze,
-  Lim/Tracy,
-  Lim/L.\bibnamedelimi T.}
-%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
+% %% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
+% %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
+% %% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
+% \mynames{Lim/Lian\bibnamedelima Tze,
+%   Wong/Lian\bibnamedelima Tze,
+%   Lim/Tracy,
+%   Lim/L.\bibnamedelimi T.}
+% %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
-\nocite{*}
+% \nocite{*}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
-\divider
+% \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
 
-\divider
+% \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+% \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
+\cvevent{PyAutoGUI}{Support for Wayland \#936}{Sep 2025}{asweigart/pyautogui/pull/936}
+\begin{itemize}
+\item Adds support for Wayland in PyAutoGUI.
+\item I was unable to use PyAutoGUI when I switched to Wayland, I was looking at how I could use it, but could not find any fix.
+\end{itemize}
+
+\cvevent{Formation}{Lambda-like support for callbacks \#33}{May 2024}{ObaraEmmanuel/Formation/pull/33}
+\begin{itemize}
+\item Adds lambda-like support when ussing callbacks in FormationStudio.
+\item I had recently heard about Formation Studio, tried it, and realised that it didnt support rich callbacks with arguments.
+\end{itemize}
 
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
@@ -233,72 +249,75 @@
 ``Something smart or heartfelt, preferably in one sentence.''
 \end{quote}
 
-\cvsection{Most Proud of}
+% \cvsection{Most Proud of}
 
-\cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
+% \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
 
-\divider
+% \divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
 
-\divider
+% \divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
 
-\cvsection{Strengths}
+\cvsection{Technologies}
 
 % Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
 
-\cvtag{Hard-working}
-\cvtag{Eye for detail}\\
-\cvtag{Motivator \& Leader}
+\cvtag{Python}
+\cvtag{Django}
+\cvtag{FastAPI}
+\cvtag{Selenium}
+\cvtag{HTML}
+\cvtag{TailwindCSS}
+\cvtag{Bash}
+\cvtag{Linux}
 
-\divider\smallskip
+% \divider\smallskip
 
-\cvtag{C++}
-\cvtag{Embedded Systems}\\
-\cvtag{Statistical Analysis}
+% \cvtag{C++}
+% \cvtag{Embedded Systems}\\
+% \cvtag{Statistical Analysis}
 
 \cvsection{Languages}
 
 \cvskill{English}{5}
 \divider
 
-\cvskill{Spanish}{4}
+\cvskill{Hindi}{3}
 \divider
 
-\cvskill{German}{3.5} %% Supports X.5 values.
 
 %% Yeah I didn't spend too much time making all the
 %% spacing consistent... sorry. Use \smallskip, \medskip,
 %% \bigskip, \vspace etc to make adjustments.
-\medskip
 
 \cvsection{Education}
 
-\cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
-Thesis title: Wonderful Research
-
-\divider
-
-\cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
-
-\divider
-
-\cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
+\cvevent{Class IX}{DPS Dibrugarh}{2025}{}
+% Thesis title: Wonderful Research
 
 % \divider
 
-\cvsection{Referees}
+% \cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
 
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address Line 2}
+% \divider
 
-\divider
+% \cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
 
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address Line 2}
+% \divider
+
+% \cvsection{References}
+
+% % \cvref{name}{email}{mailing address}
+% \cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+% {Address Line 1\\Address Line 2}
+
+% \divider
+
+% \cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
+% {Address Line 1\\Address Line 2}
 
 
 \end{paracol}
