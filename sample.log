@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  22 OCT 2025 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  22 OCT 2025 11:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1442,11 +1442,21 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 166.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 254--254
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 255--255
+[]|[]| 
+ []
+
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./pro-pic.png (PNG copy)>] (./sample.aux)
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./pro-pic.png (PNG copy)>] (./sample.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1467,17 +1477,17 @@ Package logreq Info: Writing requests to 'sample.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43564 strings out of 469611
- 876148 string characters out of 5474181
- 1617533 words of memory out of 5000000
- 71377 multiletter control sequences out of 15000+600000
- 828314 words of font info for 71 fonts, out of 8000000 for 9000
+ 43589 strings out of 469611
+ 876829 string characters out of 5474181
+ 1621533 words of memory out of 5000000
+ 71396 multiletter control sequences out of 15000+600000
+ 850427 words of font info for 73 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 117i,8n,121p,1204b,2734s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1204b,2734s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on sample.pdf (1 page, 382190 bytes).
+Output written on sample.pdf (1 page, 383879 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
